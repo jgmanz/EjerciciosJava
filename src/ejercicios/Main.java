@@ -11,7 +11,7 @@ public class Main {
 		//estructuras condicionales
 		
 		
-		
+		String str = new String("HOLA MUNDO");
 		int edad = 20; 
 		boolean mayorEdad = false; 
 		
@@ -43,20 +43,16 @@ public class Main {
 		char c = 'a'; 
 		switch(c)
 		{
-			case 'a':
-				System.out.println("Caso a");
-				break;
-			case 'b':
-				System.out.println("b");
-				break;
-			default :
-			System.out.println("Ninguno de los anteriores");
+		case 'a':
+			System.out.println("Caso a");
+			break;
+		case 'b':
+			System.out.println("b");
+			break;
+		default :
+		System.out.println("Ninguno de los anteriores");
 		}
-		
-		
-		
-		
-		
+	
 		//while
 		
 		int cont = 0; 
